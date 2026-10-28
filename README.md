@@ -26,7 +26,7 @@ The workbook contains 65 annual observations, 1961–2025, and five variables:
 
 The original input workbook was `INFc.xlsx`, with headers `YEAR`, `EX`, `OPEN`, `INF`, and `M2\GDP`. Column names were standardized for the repository; the 65 rows and their numeric values were preserved. Data processing is performed by the analysis script: the nominal exchange rate is log-transformed, then the empirical response and regressors are standardized. Expanding-window comparisons use normalization constants estimated only from the training period.
 
-The input workbook itself does not identify individual statistical releases or source vintages. The manuscript's data-source citations should therefore be checked against the underlying official publications independently of this repository.
+TThe macroeconomic series are attributed to the Syrian Planning and Statistics Commission, as documented in Section 4.1 and Reference [23] of the manuscript. The repository provides the analytical dataset used in the study, covering 1961–2025. Variable names were standardized for computational use without changing the underlying numerical observations. The institutional source is identified in the manuscript.
 
 ## Setup
 
